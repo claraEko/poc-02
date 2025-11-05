@@ -21,4 +21,4 @@ tl.to(".zoom-01", { scale: 3, y: 2800, duration: 30, ease: "none" })
   .to(".zoom-03", { scale: 3, y: 2800, duration: 30, ease: "none" })
   .to(".zoom-04", { scale: 3, y: 2800, duration: 30, ease: "none" })
   .to(".zoom-05", { scale: 3, y: 2800, duration: 30, ease: "none" })
-  .to(".zoom-06", { y: -1000, duration: 30, ease: "none" });
+  .to(".zoom-06", { y: -2000, duration: 30, ease: "none" });
