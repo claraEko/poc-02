@@ -17,9 +17,9 @@ const tl = gsap.timeline({
 
 // === Séquence d’animations ===
 tl.to(".zoom-01", { scale: 3, y: 2800, duration: 6, ease: "none" })
-  .to(".zoom-02", { scale: 3, y: 2800, duration: 6, ease: "none" })
+  .to(".zoom-02", { scale: 3, y: 2800, duration: 2, ease: "none" })
   .to(".zoom-03", { scale: 3, y: 2800, duration: 6, ease: "none" })
   .to(".zoom-04", { scale: 3, y: 2800, duration: 6, ease: "none" })
   .to(".zoom-05", { scale: 3, y: 2800, duration: 6, ease: "power1.out" })
-  .to(".zoom-06", { y: -2000, duration: 4, ease: "power1.in" }, "-=3")
-  .to(".scroll-h", { x: -3820, duration: 4, ease: "power1.in" });
+  .to(".zoom-06", { y: "-66%", duration: 4, ease: "power1.in" }, "-=3")
+  .to(".scroll-h", { x: "-100%", duration: 4, ease: "power1.in" });
